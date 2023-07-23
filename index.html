@@ -1,1 +1,195 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Portfolio-Amita Ghosh </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<script src="https://kit.fontawesome.com/30bf30068a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- header section -->
+	<div id="header">
+		<div class="container">
+			<nav> 
+				<h1 class="logo">Amita Ghosh</h1>
+				<!-- <img src="images/logo.jpeg" class="logo"> -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolios</a></li>
+					<li><a href="#">Contact</a></li>
+
+				</ul>
+			</nav>
+			<div class="header-text">
+				<!-- <p>Software Engineer</p> -->
+				<h1>Hi! I'm <span>Amita</span> from United States.</h1>
+				<p>A Software Engineer bringing ideas to life through code.</p>
+				<p><span>Scroll down to know more about me !<span></p>
+			</div>
+		</div>
+	</div>
+	<!-- about section -->
+	<div class="about">
+		<div id="container">
+			<div class="row">
+				<div class="about-column-1">
+					<img src="images/about_me.png" id="about-me-image">
+				</div> 
+				<div class="about-column-2">
+					<h1 class="about-me">About Me</h1>
+					<p>I'm a software engineer with 8+ years of experience mainly in developing mobile applications for both consumer and enterprise applications. I'm well versed with SDLC and Object Oriented programming.My Masters in Computer Science equipped me with AI/ML,cloud computing and Big Data technologies.I'm proficient in cloud services and I love doing data analysis.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="openTab('first')">Where am i ?</p>
+						<p class="tab-links" onclick="openTab('second')" >What do i Love?</p>
+						<p class="tab-links" onclick="openTab('third')">What is my ideal work environment?</p>
+					</div>
+					<div class="tab-contents active-tab" id="first">
+						<p> Currently in Dallas,Texas.</p>
+						<!-- <ul>
+							<li><span>Programming languages</span><br>Python,Swift</li>
+							<li><span>Cloud</span><br>Azure, AWS</li>
+							<li><span>CI/CD</span><br>Jenkins</li>
+						</ul> -->
+					</div>
+					<div class="tab-contents" id="second">
+						<p>I love solutioning, developing software, troubleshoot issues, technical writing and lots of learning!</p>
+						<!-- <ul>
+							<li><span>Solutions Engineer Intern</span><br>SolarWinds</li>
+							<li><span>Assistant Consultant</span><br>Tata Consultancy Services</li>
+							<li><span>CI/CD</span><br>Jenkins</li>
+						</ul> -->
+					</div>
+					<div class="tab-contents" id="third">
+						<p>I love working with motivating and empathetic team.</p>
+						<!-- <ul>
+							<li><span>Masters in Computer Science</span><br>Univeristy of Texas Arlington </li>
+							<li><span>Bachelors in Electronics & Communication Engineering </span><br></li>
+						</ul> -->
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- ------------------------- services ------------------------------------------- -->
+	<div id="services">
+		<div class="container">
+			<h1 class="about-me">My Skills</h1>
+			<div class="services-list">
+				<div>
+					<h2>Mobile Applications</h2>
+					<p>Swift, SwiftUI, Objective-C, React Native, iOS</p>
+				</div> 
+				<div>
+					<h2>Web Design</h2>
+					<p>JavaScript, Express.JS, Node.js, HTML, CSS, Python</p>
+				</div>
+				<div>
+					<h2>Database</h2>
+					<p>SQL, Oracle, MySQL, SQLITE</p>
+				</div>
+				<div>
+					<h2>Cloud Computing/Big Data/NoSQL</h2>
+					<p>Azure, AWS, Hadoop, Spark, Docker, Scala, Machine Learning</p>
+				</div>
+				<div>
+					<h2>CI/CD/Tools</h2>
+					<p>Git, Jenkins, Xcode, Splunk</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- ------------------------- experience ------------------------------------------- -->
+
+	<div id="experience">
+		<div class="container">
+			<h1 class="about-me">Work History</h1>
+			<div class="experience-list">
+				<div>
+					<p><i class="fa-solid fa-briefcase"></i> SolarWinds</p>
+					<p><i class="fa-solid fa-user-tie"></i> Solutions Engineer Intern</p>
+					<p><i class="fa-solid fa-timeline"></i> June 2022 - August 2022</p>
+					<p><i class="fa-solid fa-industry"></i> SaaS , Observability & Monitoring, Cloud</p>
+					<p>Summer Internship while pursuing Masters</p>
+				</div>
+				<div>
+					<p><i class="fa-solid fa-briefcase"></i> Tata Consultancy Services</p>
+					<p><i class="fa-solid fa-user-tie"></i> Assistant Consultant(Senior Software Developer)</p>
+					<p><i class="fa-solid fa-timeline"></i> Oct 2011 - Nov 2020</p>
+					<p><i class="fa-solid fa-industry"></i> Banking , Airlines</p>
+					<p>Worked for multiple customer engagements across the globe, predominantly from US/UK for their consumer/enterprise software development and distribution.</p>
+					<p>Clients : Bank Of America , MBNA, American Airlines, Virgin Atlantic Airways</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- ------------------------- Education ------------------------------------------- -->
+	<div id="education">
+		<div class="container">
+			<h1 class="about-me">Education</h1>
+			<div class="education-list">
+				<div>
+					<p><span>Masters in Computer Science<span></p>
+					<p><i class="fa-solid fa-school"></i> University of Texas at Arlington, Texas, USA</p>
+				</div>
+				<div>
+					<p><span>Bachelors in Electronics and Communication Engineering<span></p>
+					<p><i class="fa-solid fa-school"></i> University of Kerala, India</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- -------------------- contact ------------------------- -->
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h1 class="about-me">Contact Me</h1>
+						<p><i class="fa-solid fa-paper-plane"></i>amitaamy@gmail.com</p>
+						<div class="social-media">
+							<a href="https://www.linkedin.com/in/amitaghosh/
+"><i class="fa-brands fa-linkedin-in"></i></a>
+						</div>
+					</div>
+					<div class="contact-right">
+						<form>
+							<input type="text" name="Name" placeholder="Your Name" required>
+							<input type="email" name="email" placeholder="Your Email" required>
+							<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+							<button type="submit" class="btn btn2">Submit</button>
+
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright © Amita</p>
+		</div>
+
+	<script type="text/javascript">
+		var tabLinks = document.getElementsByClassName("tab-links")
+		var tabContents = document.getElementsByClassName("tab-contents")
+
+		function openTab(tabType) {
+			for(link of tabLinks){
+				link.classList.remove("active-link");
+			}
+			for(content of tabContents){
+				content.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link")
+			document.getElementById(tabType).classList.add("active-tab")
+		}
+
+	</script>
+</body>
+</html>
