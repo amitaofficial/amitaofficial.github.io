@@ -112,7 +112,7 @@ nav ul li a:hover::after{
  #about-me-image{
  	width: 70%;
  	height: 90%;
- 	margin-left: 20px;
+ 	margin-left: 100px;
  }
  .tab-titles{
  	display: flex;
